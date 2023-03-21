@@ -10,3 +10,11 @@ console.log("Divide", x/y)
 let modulo = 13
 
 console.log("Modulo", 13%5)
+
+//for loop
+
+let i = 0
+
+for (i; i <= 10; i++) {
+    console.log(i)
+}
