@@ -27,21 +27,21 @@ console.log("second = " + (second = temp1));
 
 //Variables p.2
 // Завдання: https://shpp.gitbook.io/zero/tutorials/commands/swap#chastina-2
-let first = 10;
-let second = 11;
+first = 10;
+second = 11;
 
 console.log("first = " + first);
 console.log("second = " + second + "\n");
 
-let temp1 = first;
+temp1 = first;
 
 console.log("first = " + (first = second));
 console.log("second = " + (second = temp1));
 
 //Variables p.3
 // Завдання: https://shpp.gitbook.io/zero/tutorials/commands/swap#chastina-3-ne-obovyazkovo
-let first = 10;
-let second = 11;
+first = 10;
+second = 11;
 
 console.log("first = " + first);
 console.log("second = " + second + "\n");
@@ -63,8 +63,8 @@ console.log(number);
 
 //two numbers sum
 // Завдання: https://shpp.gitbook.io/zero/tutorials/input-output/addition
-let temp1 = +prompt();
-let temp2 = +prompt();
+temp1 = +prompt();
+temp2 = +prompt();
 let sum = temp1 + temp2;
 
 console.log(temp1 + " + " + temp2 + " = " + sum);
@@ -89,7 +89,7 @@ if (distance < 4) {
 
 //kmden-2 p1
 // Завдання: https://shpp.gitbook.io/zero/tutorials/if-else/km-day-2#chastina-1
-let distance = +prompt("Скільки ви проходите кілометрів в день?");
+distance = +prompt("Скільки ви проходите кілометрів в день?");
 
 if (distance < 4) {
     console.log("мало");
@@ -119,7 +119,7 @@ if (distance >= 20) {
 
 //kmden-2 p2
 // Завдання: https://shpp.gitbook.io/zero/tutorials/if-else/km-day-2#chastina-2
-let distance = +prompt("Скільки ви проходите кілометрів в день?");
+distance = +prompt("Скільки ви проходите кілометрів в день?");
 
 if (distance < 20) {
     if (distance > 3) {
@@ -147,7 +147,7 @@ if (distance >= 20) {
 
 //kmden-2 p3
 // Завдання: https://shpp.gitbook.io/zero/tutorials/if-else/km-day-2#chastina-3
-let distance = +prompt("Скільки ви проходите кілометрів в день?");
+distance = +prompt("Скільки ви проходите кілометрів в день?");
 
 if (distance < 20) {
     if (distance > 3) {
