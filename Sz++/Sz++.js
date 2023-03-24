@@ -178,3 +178,37 @@ if (distance > 3) {
         console.log("красунчик!");
     }
 } */
+
+//Empire state bulding
+// Завдання: https://shpp.gitbook.io/zero/tutorials/if-else/empire-state-building-lift
+let floor = Number(prompt("Будьласка напишіть номер поверху: "));
+
+if (floor < 1 || floor > 102) {
+    console.log("невірний поверх");
+} else if (floor >= 24 && floor <= 39) {
+    let password = +prompt("Введіть пароль для поверху з 24 по 39: ");
+
+    if (password == 1337) {
+        console.log("ок");
+    } else {
+        console.log("невірний пароль");
+    }
+} else {
+    console.log("ок");
+}
+
+//пропоноване розвязання 
+/*let floor = +prompt("Введіть номер поверху");
+if (floor >= 1 && floor <= 102) {
+    if (floor >= 24 && floor <= 39) {
+        if (+prompt("Введіть пароль") == 1337) {
+            console.log("ок");
+        } else {
+            console.log("невірний пароль");
+        }
+    } else {
+        console.log("ок");
+    }
+} else {
+    console.log("невірний поверх");
+} */

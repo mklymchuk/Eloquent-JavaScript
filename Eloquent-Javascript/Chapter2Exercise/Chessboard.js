@@ -15,7 +15,8 @@ for (let triangleY = 0; triangleY <= size; triangleY++) {
 
 console.log(board);
 
-//print() - відкриває принтер
+//print() - відкриває принтер))
+
 //рішення з книжки
 
 size = 8;
