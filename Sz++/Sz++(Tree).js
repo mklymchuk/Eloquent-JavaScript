@@ -11,7 +11,6 @@
 // Завдання: https://shpp.gitbook.io/zero/tutorials/loops/christmas_tree
 let height = +prompt("Height: ");
 let stars = 1;
-let spaces = stars;
 
 for (let y = 0; y < height; y++) {
     for (let x = height - 1; x > y; x--) {
