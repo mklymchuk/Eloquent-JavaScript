@@ -10,7 +10,7 @@ let maxValue;
 let temp;
 
 do {
-    number = +prompt("Num: ");
+    number = +prompt("Введіть числа, нуль кінець програми: ");
 
     if (number % 2 == 1) {
         arrayOfNumbers[x] = number;
