@@ -82,3 +82,57 @@ function likes(names) {
       return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
     }
 }
+
+https://www.codewars.com/kata/list-filtering/train/javascript
+
+function filter_list(l) {
+  // Return a new array with the strings filtered out
+  let newL = [];
+  for (let i = 0; i < l.length; i++) {
+    if (typeof l[i] != 'string') {
+          newL.push(l[i]);
+        }
+  }
+  return newL;
+}
+
+https://www.codewars.com/kata/sum-mixed-array/train/javascript
+
+function sumMix(x){
+  let sum = 0;
+  for (let i = 0; i < x.length; i++) {
+    sum += parseInt(x[i]);
+  }
+  return sum;
+}
+
+https://www.codewars.com/kata/basic-mathematical-operations/train/javascript
+
+function basicOp(operation, value1, value2)
+{
+  // Code
+  return eval(value1 + operation + value2);
+}
+
+https://www.codewars.com/kata/counting-sheep-dot-dot-dot/train/javascript
+
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+  let count = 0;
+  for (let i = 0; i < arrayOfSheep.length; i++) {
+    if (arrayOfSheep[i] != false & arrayOfSheep[i] != null & arrayOfSheep[i] != undefined) {
+      count++;
+    }
+  }
+  return count;
+}
+
+https://www.codewars.com/kata/array-plus-array/train/javascript
+
+function arrayPlusArray(arr1, arr2) {
+  let sum = 0;
+  for (let i = 0; i < arr1.length; i++) {
+    sum += arr1[i] + arr2[i];
+  }
+  return sum; //something went wrong
+}
